@@ -1,0 +1,50 @@
+#title{
+    text-align: center;
+}
+
+#rollContainer{
+    text-align:center;
+}
+
+#roll{
+    width:200px;
+    height:100px;
+    margin: 0 auto;
+}
+
+button {
+    font-size: 20px;
+}
+
+p{
+    text-align: center;
+}
+
+
+#wheelContainer{
+    display:flex;
+    justify-content:center;
+}
+
+#wheelContainer > img{
+    margin: 10px 40px;
+}
+
+#payoutKey{
+    flex-direction:column;
+    display:flex;
+    align-items: center;
+}
+
+table{
+    border: black solid 2px;
+}
+
+td {
+    border: black solid 2px;
+}
+
+td {
+    text-align: center;
+    margin: 0 10px;
+}

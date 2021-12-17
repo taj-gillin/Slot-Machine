@@ -1,0 +1,11 @@
+{
+  "name": "slot-machine",
+  "version": "1.0.0",
+  "description": "slot machine website",
+  "main": "index.js",
+  "scripts": {
+    "compile": "tsc src/script.ts --outDir build "
+  },
+  "author": "taj gillin",
+  "license": "ISC"
+}

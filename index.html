@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>APS2 Slot Machine</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <h1 id="title">APS<sup>2</sup> Slot Machine</h1>
+
+    <p id="totalDisplay">Total: <strong>$100</strong></p>
+    <p id="output">You won:</p>
+    <br>
+    <div id="wheelContainer">
+        <img id="Wheel1Output" src="images/empty.png" width="256px" height="256px">
+        <img id="Wheel2Output" src="images/empty.png" width="256px" height="256px">
+        <img id="Wheel3Output" src="images/empty.png" width="256px" height="256px">
+    </div>
+    <br>
+
+    <div id="rollContainer">
+        <button id="roll">Roll</button>
+    </div>
+
+
+    <br>
+
+    <div id="payoutKey">
+        <h2>Payout Key</h2>
+        <table>
+            <tr>
+                <th>Icons</th>
+                <th>Payout ($)</th>
+                <th>Image</th>
+            </tr>
+            <tr>
+                <td>1x Roudebush</td>
+                <td>2</td>
+                <td><img src="images/Cherry.jpg" width="100px" height="100px"></td>
+            </tr>
+            <tr>
+                <td>2x Roudebush</td>
+                <td>5</td>
+                <td><img src="images/Cherry.jpg" width="100px" height="100px"></td>
+            </tr>
+            <tr>
+                <td>3x Roudebush</td>
+                <td>10</td>
+                <td><img src="images/Cherry.jpg" width="100px" height="100px"></td>
+            </tr>
+            <tr>
+                <td>3x Aadam</td>
+                <td>15</td>
+                <td><img src="images/Orange.jpg" width="100px" height="100px"></td>
+            </tr>
+            <tr>
+                <td>3x Anna</td>
+                <td>20</td>
+                <td><img src="images/Watermelon.jpg" width="100px" height="100px"></td>
+            </tr>
+            <tr>
+                <td>3x Gershon</td>
+                <td>30</td>
+                <td><img src="images/Bell.jpg" width="100px" height="100px"></td>
+            </tr>
+            <tr>
+                <td>Any combination of Bennet, Quinn, or Ben</td>
+                <td>30</td>
+                <td><img src="images/Single Bar.jpg" width="100px" height="100px"><img src="images/Double Bars.jpg"
+                        width="100px" height="100px"><img src="images/Triple Bars.jpg" width="100px" height="100px">
+                </td>
+            </tr>
+            <tr>
+                <td>3x Bennet</td>
+                <td>50</td>
+                <td><img src="images/Single Bar.jpg" width="100px" height="100px"></td>
+            </tr>
+            <tr>
+                <td>3x Quinn</td>
+                <td>100</td>
+                <td><img src="images/Double Bars.jpg" width="100px" height="100px"></td>
+            </tr>
+            <tr>
+                <td>3x Ben</td>
+                <td>300</td>
+                <td><img src="images/Triple Bars.jpg" width="100px" height="100px" </td>
+            </tr>
+
+        </table>
+    </div>
+    
+</body>
+
+<script src="build/script.js"></script>
+
+</html>
